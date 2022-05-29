@@ -7,6 +7,6 @@ import { SymbolService } from './symbol.service';
   imports: [],
   controllers: [HelloController],
   providers: [HelloService, SymbolService],
-  exports: [HelloService],
+  exports: [HelloService,SymbolService],
 })
 export class HelloModule {}

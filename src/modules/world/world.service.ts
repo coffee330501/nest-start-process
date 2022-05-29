@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@nestjs/common';
-import { SymbolService } from 'src/hello/symbol.service';
+import { SymbolService } from 'src/modules/hello/symbol.service';
 import { HelloService } from '../hello/hello.service';
 
 @Injectable()
